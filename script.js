@@ -33,7 +33,17 @@ console.error('Error loading products');
 loadingElement.style.display='none';
 errorElement.style.display=('Error processing products, reload page')
 
+// hide loading indicators, error elements, and product container
+loadingElement.style.displayProduct='block'
+ errorElement.style.display='none';
+
+ 
+ 
 
 
-}}
-})
+}})
+
+
+
+
+
