@@ -1,1 +1,37 @@
+body{
+ font-family:sans-serif;
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+ background-color: aqua;
+ margin:0;
 
+}
+#loading{
+    font-size: 25px;
+}
+error{
+    color:red;
+}
+
+#product img{
+     max-width: 30px; ;
+}
+#product-name{
+    font-size: 25px;
+    color:black;
+}
+#product-description{
+    font-size: 15px;
+    color:black;
+}
+#product-price{
+    font-size: 19px;
+    color:black;
+}
+button{
+    margin:5px;
+    padding: 10px 20px;
+    font-size:15px;
+    cursor: pointer;
+}
