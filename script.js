@@ -37,6 +37,16 @@ errorElement.style.display=('Error processing products, reload page')
 loadingElement.style.displayProduct='block'
  errorElement.style.display='none';
 
+ //Previous Button
+ prevButton.addEventListener('click', () =>{
+  currentIndex (currentIndex-1) % productlength;
+   displayProduct(currentIndex);
+  });
+  //Next Button
+  nextButton.addEventListener('click', () =>{
+   currentIndex(currentIndex+1)% products.length;
+   displayProduct(currentIndex);
+  });
  
  
 
